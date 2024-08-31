@@ -17,6 +17,8 @@ public class Main {
 
     //The values of o1 and o2 are swapped,
     // but because the values are copies of the item1 and item2 memory locations,
+    //Its like
+    //item1 point to x1 and item2 point to x2.Now o1 point to x1 and o2 to x2.
     // there is no change to the values of the item1 and item2 number values.
     // A copy get created here.
     public static void swap(Object o1, Object o2){
