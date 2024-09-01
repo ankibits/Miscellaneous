@@ -30,7 +30,7 @@ public class Main {
             }
         }, "thread2");
 
-        thread1.start();;
-        thread2.start();;
+        thread1.start();
+        thread2.start();
     }
 }
